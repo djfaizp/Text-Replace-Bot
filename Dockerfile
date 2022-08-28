@@ -16,9 +16,9 @@ RUN cd /
 
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 
-RUN mkdir /EvaMaria
+RUN mkdir /Text-replace 
 
-WORKDIR /EvaMaria
+WORKDIR /Text-replace
 
 COPY start.sh /start.sh
 
